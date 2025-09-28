@@ -1,0 +1,99 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 2,
+  "items": [
+    {
+      "path": "/home/tibor/ROMS/NES/Bugs Bunny Crazy Castle, The (U).nes",
+      "label": "Bugs Bunny Crazy Castle, The (Seika) (USA)",
+      "core_path": "/nix/store/n0vjsawssp0yhdliwbzqcvz2qy647x7n-libretro-nestopia-unstable-2023-09-24/lib/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nestopia",
+      "crc32": "DB0C3656|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/PsP/0227 - Prince of Persia - Revelations (USA) (En,Fr,Es) (v1.01).iso",
+      "label": "Prince of Persia - Revelations (USA) (En,Fr,Es) (v1.01)",
+      "core_path": "/nix/store/nbk0my3djal4fhwzlw3s5xgb8pxhvzvm-libretro-ppsspp-unstable-2023-09-24/lib/retroarch/cores/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "ULUS-10063|serial",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/GBA/Ultimate Spider-Man (U).gba",
+      "label": "Ultimate Spider-Man (USA)",
+      "core_path": "/nix/store/i3lgj9sxbh2yh6vfh3dna4dd485yc3a2-libretro-mgba-unstable-2023-09-24/lib/retroarch/cores/mgba_libretro.so",
+      "core_name": "mGBA",
+      "crc32": "931E2C18|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/PsP/1201 - Crash of the Titans (USA) (v1.01).iso",
+      "label": "Crash of the Titans (USA) (v1.01)",
+      "core_path": "/nix/store/nbk0my3djal4fhwzlw3s5xgb8pxhvzvm-libretro-ppsspp-unstable-2023-09-24/lib/retroarch/cores/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "ULUS-10304|serial",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/PsP/1126 - Tomb Raider - Anniversary (USA) (En,Fr,De,Es,It) (v1.02).iso",
+      "label": "Tomb Raider - Anniversary (USA) (En,Fr,De,Es,It) (v1.02)",
+      "core_path": "/nix/store/nbk0my3djal4fhwzlw3s5xgb8pxhvzvm-libretro-ppsspp-unstable-2023-09-24/lib/retroarch/cores/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "ULUS-10253|serial",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/GBC/Duke Nukem (U) (M5) [C][!].gbc",
+      "label": "Duke Nukem (USA) (En,Fr,De,Es,It)",
+      "core_path": "/nix/store/258rpqpv18zclj48pyajb4iwgjgycpm1-libretro-gambatte-unstable-2023-09-24/lib/retroarch/cores/gambatte_libretro.so",
+      "core_name": "Gambatte",
+      "crc32": "846FC830|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/PsP/1201 - Crash of the Titans (USA) (v1.01).iso",
+      "label": "Crash of the Titans (USA) (v1.01)",
+      "core_path": "/nix/store/nbk0my3djal4fhwzlw3s5xgb8pxhvzvm-libretro-ppsspp-unstable-2023-09-24/lib/retroarch/cores/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "ULUS-10304|serial",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Simpsons - Bart Vs the World, The (U).nes",
+      "label": "Simpsons, The - Bart vs. the World (USA)[b2]",
+      "core_path": "/nix/store/n0vjsawssp0yhdliwbzqcvz2qy647x7n-libretro-nestopia-unstable-2023-09-24/lib/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nestopia",
+      "crc32": "614AFBEA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Addams Family - Pugsley's Scavenger Hunt, The (U).nes",
+      "label": "Addams Family, The - Pugsley's Scavenger Hunt (Ocean) (USA)",
+      "core_path": "/nix/store/n0vjsawssp0yhdliwbzqcvz2qy647x7n-libretro-nestopia-unstable-2023-09-24/lib/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "6B8D777D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Legend of Zelda, The (U) (PRG1) [!].nes",
+      "label": "Legend of Zelda Rev PRG1, The (Nintendo) (USA)",
+      "core_path": "/nix/store/n0vjsawssp0yhdliwbzqcvz2qy647x7n-libretro-nestopia-unstable-2023-09-24/lib/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "02BB0C56|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Pac-Man (U) [!].nes",
+      "label": "Pac-Man (Tengen) (USA)",
+      "core_path": "/nix/store/n0vjsawssp0yhdliwbzqcvz2qy647x7n-libretro-nestopia-unstable-2023-09-24/lib/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "22276A55|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    }
+  ]
+}

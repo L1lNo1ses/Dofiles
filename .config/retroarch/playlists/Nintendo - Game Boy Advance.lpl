@@ -1,0 +1,19 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/home/tibor/ROMS/GBA/Ultimate Spider-Man (U).gba",
+      "label": "Ultimate Spider-Man (USA)",
+      "core_path": "/nix/store/i3lgj9sxbh2yh6vfh3dna4dd485yc3a2-libretro-mgba-unstable-2023-09-24/lib/retroarch/cores/mgba_libretro.so",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "931E2C18|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    }
+  ]
+}

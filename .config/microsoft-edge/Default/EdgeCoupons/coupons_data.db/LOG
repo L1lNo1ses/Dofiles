@@ -1,0 +1,6 @@
+2024/05/23-16:34:33.073 967d Reusing MANIFEST /home/tibor/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/MANIFEST-000001
+2024/05/23-16:34:33.074 967d Recovering log #4
+2024/05/23-16:34:33.074 967d Reusing old log /home/tibor/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/000004.log 
+2024/05/23-16:34:33.269 967f Level-0 table #8: started
+2024/05/23-16:34:34.286 967f Level-0 table #8: 854824 bytes OK
+2024/05/23-16:34:34.418 967f Delete type=0 #4

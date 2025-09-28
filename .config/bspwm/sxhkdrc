@@ -1,0 +1,236 @@
+# Magyarch bspwm keybinds
+# Add focused window to a tabbed instance in given direction
+super + t; {h,j,k,l}
+    tabc add $(bspc query -N -n focused) $(bspc query -N -n {west,south,north,east})
+
+# Remove one tab from tabbed
+super + t; r
+    tabc remove-child $(bspc query -N -n focused)
+
+
+# Main and float terminal
+super + {_,shift + } Return
+    {$TERMINAL, bspwmfloat && $TERMINAL}
+
+# Dmenu2 and rofi(window switcher, application launcher)
+super + {_,shift +} d
+    {rofi_run -r}
+
+
+# Tui filemanager and same command with sudo
+super + {_,shift + } r
+   {$TERMINAL -e $FILE, $TERMINAL -e sudo $FILE}
+
+# Show keys with rofi/default gui editor
+super + {_,shift + } e
+    {show_keys.sh, subl}
+
+# Switch tile and monocle layoutand simple flip layout
+super + {_,shift + } m
+    {bspc desktop -l next, bspc node @/ -R 90}
+
+# News, tui music player
+super + {_,shift + } n
+    {bspc rule -a \* -o state=floating rectangle=870x550+500+270 && alacritty -e newsboat, tdrop -ma -w 50% -h 50% -y 25% -x 25%  alacritty --class=tdrop -t tdrop -e ncmpcpp}
+
+# Htop,gtop system monitor
+super + {_,shift + } i
+    {$TERMINAL -e htop, yt}
+
+# S,R,lock script,calendar app
+super + {_,shift + } c
+    {rofi_run -l, rofi_run -w}
+
+# Default web browser brave and firefox
+super + {_,shift + } w
+    {$BROWSER, rofi_run -b}
+
+# Chat client, gui filemanager
+super + {_,shift + } p
+    {discord, telegram-desktop}
+
+# Hide polybar/Reload bspwm
+super + {_,shift + } b
+    {polybar-msg cmd toggle, $HOME/.config/bspwm/bspwmrc ;\notify-send "A konfigurációs fájl újratöltődik."}
+
+# Reload sxhkd
+super + {_,shift + } Escape
+    {pkill -USR1 -x sxhkd ;\notify-send "Sxhkd újratölt.", $HOME/.config/polybar/launch.sh ;\notify-send "Polybar újraindult."}
+
+# Fullscreen
+super + f
+  bspc node -t \~fullscreen
+
+# Close and kill
+super + {_,shift + } q
+	bspc node -{c,k}
+
+# Aliasrc show/share files
+super + {_,shift + } a
+   {alias.sh, share.sh}
+
+# emojimenu "get a menu of emojis to copy"
+super + grave
+    dmenuunicode
+
+# Kill screenkey
+super + Scroll_Lock
+    killall screenkey || screenkey
+
+# Record and stream
+super + {KP_Home,KP_End}
+    {dmenurecord, live.sh}
+
+# Kill recording and stream
+super + shift + x
+    killall ffmpeg
+
+#################################################
+           # ALT + KEYS#
+################################################
+
+# On/off transparency, pavucontrol
+alt + {a,b}
+   {pavucontrol,toggleprogram "picom -b"}
+
+# Tiled space resizing
+alt + h
+    shrinkx.sh
+alt + l
+    expandx.sh
+alt + k
+    shrinky.sh
+alt + j
+    expandy.sh
+
+##############################################
+        # FUNCTION KEYS#
+#############################################
+# Open help doc
+super + F1
+    zathura ~/.local/share/Magyarch-bspwm.pdf
+
+# Edit conf files,select display,search the net
+super + {F2,F3,F11}
+  {edconf.sh,displayselect,ducksearch}
+
+# Decrease padding 0
+super + {F6,F7}
+    {bspc config right_padding 0;\
+    bspc config left_padding 0 ;\
+    bspc config top_padding 22 ;\
+    bspc config bottom_padding 1,bspc config right_padding 40;\
+    bspc config left_padding 40 ;\
+    bspc config top_padding 40 ;\
+    bspc config bottom_padding 40}
+
+# Change background
+super + F8
+    wal
+
+# Take and pick screenshot
+super + {F4,F5}
+     {maim -d 6 ~/Képek/Képernyőképek/$(date +%Y-%m-%d_%H:%M:%S).png,maimpick}
+
+# Mount and umount a USB drive or Android device
+super + {F9,F10}
+    {dmenumount,dmenuumount}
+
+
+###########################################
+        # Volume Control
+###########################################
+
+# Decrease volume -5
+alt + {Up,Down}
+    {amixer set Master 5%+,amixer set Master 5%-}
+
+# Mute volume
+F12
+   amixer set Master toggle
+
+
+# Sratchpad
+F1
+  tdrop -ma -w 50% -h 50% -y 25% -x 25%  alacritty --class=tdrop -t tdrop
+
+##########################################
+         # BSPWM LAYOUT KEYS
+###########################################
+
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+  bspc {desktop -f,node -d} '^{1-9,10}'; desktop=$(bspc query -D --names -d); notify-send $desktop --urgency=low -t 350;
+
+#Focus selected desktop
+alt + Tab
+	bspc desktop -f '^{1-9,10}'
+
+# Focus/swap windows by direction
+super + {_,shift + }{h,j,k,l}
+	bspc node --{focus,swap} {west,south,north,east}
+
+# Focus history with tab
+super + Tab
+  bspc wm -h off; \
+  bspc node older.local --focus || ( \
+    bspc wm -h on; \
+    bspc node newest.local --focus; \
+  ); \
+  bspc wm -h on
+
+# Increase/decrease window gap on focused desktop
+super + alt + {Left,Right}
+	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5 ))
+
+# Move a floating window
+super + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}}
+
+# Set the window state
+super + space
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+# Focus parent/brother/first/second for preselection
+super + ctrl + {e,r,t,y}
+	bspc node --focus @{parent,brother,first,second}
+
+# Preselect the splitting area for next window on leaf/parent
+super + ctrl + {u,i,o,p}
+	bspc node --presel-dir \~{west,south,north,east}
+
+# Cancel preselection
+super + ctrl + space
+	bspc node --presel-dir cancel
+
+# Make a windoww sticky/non-sticky
+super + o
+    bspc node -g sticky={on,off}
+
+# Hide window
+super + v
+  bspc node -g hidden
+
+# Unhide window
+super + shift + v
+  bspc node {,$(bspc query -N -n .hidden | tail -n1)} -g hidden=off
+
+# Close windows with mouse button 2
+button2
+  bspc node pointed -c
+
+##########################################################################################
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>END>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+##########################################################################################
+
+
+
+
+
+
+
+
+
+
+

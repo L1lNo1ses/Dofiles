@@ -1,0 +1,410 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3211,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 681.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			13.0,
+			50.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"i",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/etc/nixos/packages.nix",
+				"/etc/nixos/services.nix",
+				"/home/xeoncpu/Letöltések/bspwm.nix",
+				"/home/xeoncpu/Letöltések/i3.nix",
+				"/etc/nixos/configuration.nix",
+				"/home/xeoncpu/.config/sxhkd/sxhkdrc",
+				"/home/xeoncpu/.profile",
+				"/home/xeoncpu/.xprofile",
+				"/home/xeoncpu/.local/bin/statusbar/cpu_freq.sh",
+				"/home/xeoncpu/.config/i3blocks/config",
+				"/home/xeoncpu/.config/polybar/config.ini",
+				"/home/xeoncpu/.config/ncmpcpp/config"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 113.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1254.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "1{ config, pkgs, ... }:\n{\n\n# List packages installed in system profile\n  environment.systemPackages = with pkgs; [\n(retroarch.override {\n    cores = with libretro; [\n      genesis-plus-gx #sega mag\n      snes9x #super nintendo mag\n      nestopia #nes mag\n      ppsspp #psp mag\n      pcsx2 #ps2 mag\n      mgba #gameboy advance mag\n      gambatte #gameboy color mag\n      beetle-psx-hw #Ps1 mag\n      ];\n\t\n  })\n spotify\n spicetify-cli\n pciutils\n jq\n btop\n neovim\n wget\n pfetch\n git\n feh\n sxiv\n picom\n eza\n bspwm\n # python3\n  # python313Packages.pip\n  #python313Packages.cython_3\n sxhkd\n tmux \n nitch\n pcmanfm\n alacritty zsh\n     polybar rofi pipes ranger discord\n     pavucontrol maim\n     killall     audacity     mumble\n     xclip     obs-studio\n     ffmpeg     mpv    \n     gimp lxappearance youtube-dl     vscode     \n     unzip \n     #my\n\tsuperTuxKart \n\tgeany bluez \n\tunrar unzip \n\tpavucontrol kodi\n\tdracula-theme candy-icons\n\tgit firefox qbittorrent\n\tdiscord telegram-desktop\n\tandroid-tools mpv sxiv bat lshw \n\txfce.xfce4-pulseaudio-plugin\n #magyarch\n alacritty\n appimage-run\n     acpi atool \n     amdvlk bat \n     bc \n     binutils \n  #   brave \n     curl \n     #  cpu-x\n     dunst     \n     dxvk \n#    discord  \n     dmenu \n     dzen2    \n     eza \n     exfat \n     exfatprogs \n     xfce.exo\n     eww \n#    faac\n     feh \n     gnome.file-roller\n     ffmpeg_6-full \n     fzf \n     git\n     htop \n     jamesdsp\n     killall \n     libnotify \n     lm_sensors \n     lutris \n     lxappearance \n     mangohud\n     mate.mate-polkit\n     microsoft-edge \n     mpd \n     ncmpcpp \n     maim \n     mpv \n     neofetch \n     neovim \n     ntfs3g \n     ueberzug \n     unrar \n     unzip\n     openrgb-with-all-plugins \n     p7zip \n     pamixer \n     pavucontrol\n     picom \n     polybar \n     protonup-qt \n     pulseaudio \n     pulsemixer \n     qbittorrent \n     rofi \n     scrot\n     slstatus\n     sublime3 \n     sxhkd \n     sxiv \n     system-config-printer \n     stremio\n     wineWowPackages.full \n  #python313Packages.cython\n     wmctrl \n     vifm \n     xorg.xev\n     xclip \n     x264 \n     xcape \n     xdg-user-dirs\n     xdg-utils \n     xdo \n     xdotool \n     xorg.xdpyinfo\n     xorg.xsetroot\n     xwallpaper \n     yt-dlp \n    \n    # virt-manager \n     #vscode-with-extensions\n     #vscode-extensions.bbenoist.nix\n#    xorg.xinit \n\n#    faac\n\n    # lxqt.lxqt-policykit\n# picom-allusive\n];}\n",
+					"file": "/etc/nixos/packages.nix",
+					"file_size": 2381,
+					"file_write_time": 134007030899082719,
+					"settings":
+					{
+						"buffer_size": 2382,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"i",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/xeoncpu/Letöltések/copynix.sh",
+				"/etc/nixos/services.nix",
+				"/home/xeoncpu/.config/i3/config",
+				"/home/xeoncpu/Letöltések/copydots.sh",
+				"/etc/nixos/packages.nix",
+				"/home/xeoncpu/Letöltések/bspwm.nix",
+				"/home/xeoncpu/Letöltések/i3.nix",
+				"/etc/nixos/configuration.nix",
+				"/home/xeoncpu/.config/sxhkd/sxhkdrc",
+				"/home/xeoncpu/.profile",
+				"/home/xeoncpu/.xprofile",
+				"/home/xeoncpu/.local/bin/statusbar/cpu_freq.sh",
+				"/home/xeoncpu/.config/i3blocks/config",
+				"/home/xeoncpu/.config/polybar/config.ini",
+				"/home/xeoncpu/.config/ncmpcpp/config"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/etc/nixos/packages.nix",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2382,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1,
+										1
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Nix/nix.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,15,29,1341,703,3286,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 113.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

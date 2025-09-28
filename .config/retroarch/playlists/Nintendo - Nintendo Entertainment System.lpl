@@ -1,0 +1,531 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/home/tibor/ROMS/NES/Addams Family, The (U).nes",
+      "label": "Addams Family, The (Ocean) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "08E2AF80|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Addams Family, The (U).nes",
+      "label": "Addams Family, The (Ocean) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "08E2AF80|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Addams Family - Pugsley's Scavenger Hunt, The (U).nes",
+      "label": "Addams Family, The - Pugsley's Scavenger Hunt (Ocean) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6B8D777D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Addams Family - Pugsley's Scavenger Hunt, The (U).nes",
+      "label": "Addams Family, The - Pugsley's Scavenger Hunt (Ocean) (USA)",
+      "core_path": "/nix/store/n0vjsawssp0yhdliwbzqcvz2qy647x7n-libretro-nestopia-unstable-2023-09-24/lib/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "6B8D777D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Aladdin (Unl).nes",
+      "label": "Aladdin (-) (Asia)[p]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "16E678CA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Aladdin (Unl).nes",
+      "label": "Aladdin (-) (Asia)[p]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "16E678CA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Aladdin 2.nes",
+      "label": "Aladdin 2 (-) (Asia)[p]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7C0664A6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Aladdin 2.nes",
+      "label": "Aladdin 2 (-) (Asia)[p]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7C0664A6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Astyanax (USA).nes",
+      "label": "Astyanax (Jaleco) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2FDFBC79|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Astyanax (USA).nes",
+      "label": "Astyanax (Jaleco) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2FDFBC79|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Battletoads (U) [p1].nes",
+      "label": "Battletoads (-) (USA)[p]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6301B5EE|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Battletoads (U) [p1].nes",
+      "label": "Battletoads (-) (USA)[p]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6301B5EE|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Big Nose Freaks Out (U).nes",
+      "label": "Big Nose Freaks Out (Camerica) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3AE13BCA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Big Nose Freaks Out (U).nes",
+      "label": "Big Nose Freaks Out (Camerica) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3AE13BCA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Bugs Bunny Crazy Castle, The (U).nes",
+      "label": "Bugs Bunny Crazy Castle, The (Seika) (USA)",
+      "core_path": "/nix/store/n0vjsawssp0yhdliwbzqcvz2qy647x7n-libretro-nestopia-unstable-2023-09-24/lib/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "DB0C3656|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Bugs Bunny Crazy Castle, The (U).nes",
+      "label": "Bugs Bunny Crazy Castle, The (Seika) (USA)",
+      "core_path": "/nix/store/n0vjsawssp0yhdliwbzqcvz2qy647x7n-libretro-nestopia-unstable-2023-09-24/lib/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "DB0C3656|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Castlevania (E).nes",
+      "label": "Castlevania (Konami) (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "9A3CF4D6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Castlevania (E).nes",
+      "label": "Castlevania (Konami) (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "9A3CF4D6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Chip 'n Dale Rescue Rangers (U) [!].nes",
+      "label": "Chip 'n Dale Rescue Rangers (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E641BD98|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Chip 'n Dale Rescue Rangers (U) [!].nes",
+      "label": "Chip 'n Dale Rescue Rangers (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E641BD98|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Chip 'n Dale Rescue Rangers 2 (U).nes",
+      "label": "Chip 'n Dale Rescue Rangers 2 (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "91E4A289|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Chip 'n Dale Rescue Rangers 2 (U).nes",
+      "label": "Chip 'n Dale Rescue Rangers 2 (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "91E4A289|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Cool World (U).nes",
+      "label": "Cool World (Ocean) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "BA898162|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Cool World (U).nes",
+      "label": "Cool World (Ocean) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "BA898162|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Darkwing Duck (U).nes",
+      "label": "Darkwing Duck (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "307D0FC4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Darkwing Duck (U).nes",
+      "label": "Darkwing Duck (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "307D0FC4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Double Dragon 3 - The Sacred Stones (U).nes",
+      "label": "Double Dragon III - The Sacred Stones (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7A6E0454|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Double Dragon 3 - The Sacred Stones (U).nes",
+      "label": "Double Dragon III - The Sacred Stones (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7A6E0454|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Dr Jekyll and Mr Hyde (U).nes",
+      "label": "Dr. Jekyll and Mr. Hyde (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C006A41B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Dr Jekyll and Mr Hyde (U).nes",
+      "label": "Dr. Jekyll and Mr. Hyde (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C006A41B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Duck Hunt (JUE) [p1].nes",
+      "label": "Duck Hunt (-)[p]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "712EA435|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Duck Hunt (JUE) [p1].nes",
+      "label": "Duck Hunt (-)[p]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "712EA435|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Felix the Cat (U).nes",
+      "label": "Felix the Cat (Hudson) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0639E88E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Felix the Cat (U).nes",
+      "label": "Felix the Cat (Hudson) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0639E88E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Fester's Quest (U).nes",
+      "label": "Fester's Quest (Sunsoft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DB0C7019|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Fester's Quest (U).nes",
+      "label": "Fester's Quest (Sunsoft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DB0C7019|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Flintstones - The Rescue of Dino & Hoppy, The (U).nes",
+      "label": "Flintstones, The - The Rescue of Dino & Hoppy (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0B804CDC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Flintstones - The Rescue of Dino & Hoppy, The (U).nes",
+      "label": "Flintstones, The - The Rescue of Dino & Hoppy (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0B804CDC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Flintstones 2 - The Surprise at Dinosaur Peak!, The (U).nes",
+      "label": "Flintstones, The - The Surprise at Dinosaur Peak (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "FEDA0B39|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Flintstones 2 - The Surprise at Dinosaur Peak!, The (U).nes",
+      "label": "Flintstones, The - The Surprise at Dinosaur Peak (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "FEDA0B39|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Kirby's Adventure (E).nes",
+      "label": "Kirby's Adventure (Nintendo) (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EC2328B3|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Kirby's Adventure (E).nes",
+      "label": "Kirby's Adventure (Nintendo) (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EC2328B3|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Legend of Zelda, The (U) (PRG1) [!].nes",
+      "label": "Legend of Zelda Rev PRG1, The (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "02BB0C56|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Legend of Zelda, The (U) (PRG1) [!].nes",
+      "label": "Legend of Zelda Rev PRG1, The (Nintendo) (USA)",
+      "core_path": "/nix/store/n0vjsawssp0yhdliwbzqcvz2qy647x7n-libretro-nestopia-unstable-2023-09-24/lib/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "02BB0C56|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Monster in My Pocket (U).nes",
+      "label": "Monster In My Pocket (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CFD1EB5D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Monster in My Pocket (U).nes",
+      "label": "Monster In My Pocket (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CFD1EB5D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Pac-Man (U) [!].nes",
+      "label": "Pac-Man (Tengen) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "22276A55|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Pac-Man (U) [!].nes",
+      "label": "Pac-Man (Tengen) (USA)",
+      "core_path": "/nix/store/n0vjsawssp0yhdliwbzqcvz2qy647x7n-libretro-nestopia-unstable-2023-09-24/lib/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "22276A55|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Pocahontas.nes",
+      "label": "Pocohontos (-) (Asia)[p]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "746AA039|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Pocahontas.nes",
+      "label": "Pocohontos (-) (Asia)[p]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "746AA039|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Simpsons - Bart Vs the World, The (U).nes",
+      "label": "Simpsons, The - Bart vs. the World (USA)[b2]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "614AFBEA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Simpsons - Bart Vs the World, The (U).nes",
+      "label": "Simpsons, The - Bart vs. the World (USA)[b2]",
+      "core_path": "/nix/store/n0vjsawssp0yhdliwbzqcvz2qy647x7n-libretro-nestopia-unstable-2023-09-24/lib/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "614AFBEA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Super Aladdin.nes",
+      "label": "Super Aladdin (-) (Asia)[p]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C35332E0|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Super Aladdin.nes",
+      "label": "Super Aladdin (-) (Asia)[p]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C35332E0|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/.config/retroarch/downloads/Super Tilt Bro (USA).nes",
+      "label": "Super Tilt Bro",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4C6E66ED|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Three Stooges (U).nes",
+      "label": "Three Stooges, The (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3E3FF3C4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Three Stooges (U).nes",
+      "label": "Three Stooges, The (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3E3FF3C4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Tiny Toon Adventures (U).nes",
+      "label": "Tiny Toon Adventures (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B34ED396|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Tiny Toon Adventures (U).nes",
+      "label": "Tiny Toon Adventures (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B34ED396|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Tiny Toon Adventures 2 - Trouble in Wackyland (U).nes",
+      "label": "Tiny Toon Adventures 2 - Trouble in WackyLand (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "AB36E3F7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Tiny Toon Adventures 2 - Trouble in Wackyland (U).nes",
+      "label": "Tiny Toon Adventures 2 - Trouble in WackyLand (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "AB36E3F7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Toobin (U).nes",
+      "label": "Toobin' (Tengen) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1CB59544|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Toobin (U).nes",
+      "label": "Toobin' (Tengen) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1CB59544|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/NES/Yoshi (U).nes",
+      "label": "Yoshi (Nintendo) (USA)[o]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F9C7E1B2|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/NES/Yoshi (U).nes",
+      "label": "Yoshi (Nintendo) (USA)[o]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F9C7E1B2|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/home/tibor/ROMS/PsP/1201 - Crash of the Titans (USA) (v1.01).iso",
+      "label": "Crash of the Titans (USA) (v1.01)",
+      "core_path": "/nix/store/nbk0my3djal4fhwzlw3s5xgb8pxhvzvm-libretro-ppsspp-unstable-2023-09-24/lib/retroarch/cores/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "ULUS-10304|serial",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/home/tibor/ROOMS/PsP/1201 - Crash of the Titans (USA) (v1.01).iso",
+      "label": "Crash of the Titans (USA) (v1.01)",
+      "core_path": "/nix/store/nbk0my3djal4fhwzlw3s5xgb8pxhvzvm-libretro-ppsspp-unstable-2023-09-24/lib/retroarch/cores/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "ULUS-10304|serial",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/PsP/0227 - Prince of Persia - Revelations (USA) (En,Fr,Es) (v1.01).iso",
+      "label": "Prince of Persia - Revelations (USA) (En,Fr,Es) (v1.01)",
+      "core_path": "/nix/store/nbk0my3djal4fhwzlw3s5xgb8pxhvzvm-libretro-ppsspp-unstable-2023-09-24/lib/retroarch/cores/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "ULUS-10063|serial",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/home/tibor/ROMS/PsP/1126 - Tomb Raider - Anniversary (USA) (En,Fr,De,Es,It) (v1.02).iso",
+      "label": "Tomb Raider - Anniversary (USA) (En,Fr,De,Es,It) (v1.02)",
+      "core_path": "/nix/store/nbk0my3djal4fhwzlw3s5xgb8pxhvzvm-libretro-ppsspp-unstable-2023-09-24/lib/retroarch/cores/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "ULUS-10253|serial",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    }
+  ]
+}

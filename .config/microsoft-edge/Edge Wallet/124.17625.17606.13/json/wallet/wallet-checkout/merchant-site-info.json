@@ -1,0 +1,42 @@
+[
+  {
+    "DomainName": "marriott.com",
+    "IsTravelSite": true
+  },
+  {
+    "DomainName": "hilton.com",
+    "IsTravelSite": true
+  },
+  {
+    "DomainName": "ihg.com",
+    "IsTravelSite": true
+  },
+  {
+    "DomainName": "hotels.com",
+    "IsTravelSite": true
+  },
+  {
+    "DomainName": "secure.booking.com",
+    "IsBookingAirlineSite": true
+  },
+  {
+    "DomainName": "expedia.com",
+    "IsBookingAirlineSite": true
+  },
+  {
+    "DomainName": "southwest.com",
+    "IsBookingAirlineSite": true
+  },
+  {
+    "DomainName": "aa.com",
+    "IsBookingAirlineSite": true
+  },
+  {
+    "DomainName": "delta.com",
+    "IsBookingAirlineSite": true
+  },
+  {
+    "DomainName": "alaskaair.com",
+    "IsBookingAirlineSite": true
+  }
+]

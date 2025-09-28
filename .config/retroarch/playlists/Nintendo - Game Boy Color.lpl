@@ -1,0 +1,19 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/home/tibor/ROMS/GBC/Duke Nukem (U) (M5) [C][!].gbc",
+      "label": "Duke Nukem (USA) (En,Fr,De,Es,It)",
+      "core_path": "/nix/store/258rpqpv18zclj48pyajb4iwgjgycpm1-libretro-gambatte-unstable-2023-09-24/lib/retroarch/cores/gambatte_libretro.so",
+      "core_name": "Nintendo - Game Boy / Color (Gambatte)",
+      "crc32": "846FC830|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    }
+  ]
+}
